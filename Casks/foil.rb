@@ -1,6 +1,6 @@
 cask "foil" do
   version "0.2.3-beta"
-  sha256 "fe3cceb65fdc9195e6b2bec90953f87ae4f1759ba722b8c7b2fb16520ddfa5d6"
+  sha256 "c5238e1206d3d7f27dfb6ab438279e30f76c5d44ae878d7884f038ccb4678208"
 
   url "https://github.com/vitorallo/foil-releases/releases/download/v#{version}/Foil.dmg"
   name "Foil"
