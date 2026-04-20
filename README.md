@@ -5,7 +5,8 @@ Local AI-powered security code review for Apple Silicon.
 ## Install
 
 ```bash
-brew tap peachstudio/foil https://github.com/peachstudio/homebrew-foil
+brew install python@3.14
+brew tap vitorallo/foil
 brew install --cask foil
 ```
 
