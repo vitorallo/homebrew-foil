@@ -12,9 +12,11 @@ cask "foil" do
 
   app "Foil.app"
 
-  uninstall quit: "be.peachstudio.foil"
+  uninstall quit:   "be.peachstudio.foil",
+            delete: "~/Library/Preferences/be.peachstudio.foil.plist"
 
   zap trash: [
     "~/.foil",
+    "~/Library/Preferences/be.peachstudio.foil.plist",
   ]
 end
