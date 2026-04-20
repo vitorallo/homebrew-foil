@@ -19,8 +19,11 @@ brew upgrade --cask foil
 ## Uninstall
 
 ```bash
+# Remove app (keeps models and scan data in ~/.foil)
 brew uninstall --cask foil
-# Optional: remove all data
+
+# Full removal — deletes everything (models ~4 GB, venv, findings, logs)
+brew uninstall --cask foil
 rm -rf ~/.foil
 ```
 
